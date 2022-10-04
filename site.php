@@ -49,12 +49,18 @@
         echo $phrase;   
     ?>
     <?php
-    $phrase="Girrafe Academy";//replace string and substring
-    echo str_replace("Girrafe","Panda", $phrase);
+          $phrase="Girrafe Academy";//replace string and substring
+          echo str_replace("Girrafe","Panda", $phrase);
     ?>
     <?php
-    $phrase ="Girraffe Academy";
-    echo substr($phrase,8, 3);
+         $phrase ="Girraffe Academy"; //
+         echo substr($phrase,8, 3);
+    ?>
+
+    <?php
+            echo 40;
+            echo 50;
+            echo 60;
     ?>
 </body>
 </html>

@@ -7,130 +7,18 @@
     <title>Mesalands 3 Belongs To Me</title>
 </head>
 <body>
-    <!--
-    <?php
-    echo "<h1> Mesalands 3 Belongs To Me</h1>";
-    echo "<hr>";
-    echo "<p>This Is My Site</p>"
     
-    
-    ?>
-    <?php
-        $characterName = "Tom";
-        $characterAge =80;
+   
 
-        echo "There once was a man named $characterName<br>";
-        echo "He was $characterAge years old<br>";
-            $characterName ="Mike";
-        echo "He really liked the name $characterName<br>";
-        echo "But he didn't like being $characterAge<br>";
-    ?>
-      
-
-      <?php
-      //This is a single line comment
-        $phrase = "To be or not to be"; //this is a string
-        $age = -30; // this is an integer it has to be a whole number php knows the difference
-        $gpa = "3.25"; // this is a decimal or a floating point number
-        $isMale ="false";// boolean is only true or false no in between
-        //null value means no value
-      ?>
-    <?php
-        $phrase= "Girrafe Academy";
-        echo strtoupper ($phrase);//string to upper strtoupper makes all uppercase
-        echo"<hr>";
-        echo strtolower ($phrase);//string to lower strtolower makes all lowercase
-        echo strlen($phrase);  //string length 
-     
-        echo $phrase [0];        //index  counts starting at 0 
-        //modify index by setting [0] to B
-        $phrase="Girrafe Academy";
-        $phrase[0] = "B";
-        echo"<hr>";
-        echo $phrase;   
-    ?>
-    <?php
-          $phrase="Girrafe Academy";//replace string and substring
-          echo str_replace("Girrafe","Panda", $phrase);
-    ?>
-    <?php
-         $phrase ="Girraffe Academy"; //
-         echo substr($phrase,8, 3);
-    ?>
-
-    <?php
-            echo -40; //php can handle negative numbers
-            echo (40-20); // displays the number 20 to user
-            echo"<br>";
-            echo 5.7*9; 
-            echo 10 % 3; //modulus operator modulus takes 10 and divides by 3
-          
-            echo "<hr>";
-            echo 4 + 5* 10;
-            echo"<hr>";
-            $num =10;
-            echo$num;
-            $num++;
-            echo $num;
-
-            echo"<hr>";
-            echo abs(100);
-            echo"<hr>";
-            echo round(10.5);
-            echo"<hr>";
-            echo floor(3.9);
-            echo'<br>';
-            echo ceil(10.1);
-    ?>    
-
-
-
-<?php
- echo "<br>";
-?>
-<form action="site.php" method="get">
-        Name: <input type="text" name ="name" >
-        <input type="submit">
-        <br>
-        Age:  <input type ="number" name="age">
-        <input type="submit">
-        <br>
-</form>
-
-Your name is  <?php echo $_GET["name"];?>
-Your age is <?php echo $_GET["age"];?>
 
 
 <form action="site.php" method ="get">
-<input type="number" name="num1">
-<input type ="submit">
-<br>
-<input type="number" name="num2">    
-<input type ="submit">
-    
+        Color:<input type="text> name="color> <br>
+        Plural Noun::<input type="text" name="pluralNoun"> <br>
+    Celebrity:<input type="text> name="celebrity> <br>
+        <input type ="submit">
 </form>
-    Answer:    <?php echo $_GET[num1] + $_GET[num2]?>
-
-    -->
-
-
-
-
-
-
-
-
-<form>
-    
-</form>
-
-
-
-
-
-
-
-    
+<br><br>
 
             <?php
             echo "Roses are {color} <br>";

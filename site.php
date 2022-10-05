@@ -7,6 +7,7 @@
     <title>Mesalands 3 Belongs To Me</title>
 </head>
 <body>
+    <!--
     <?php
     echo "<h1> Mesalands 3 Belongs To Me</h1>";
     echo "<hr>";
@@ -58,9 +59,89 @@
     ?>
 
     <?php
-            echo 40;
-            echo 50;
-            echo 60;
-    ?>
+            echo -40; //php can handle negative numbers
+            echo (40-20); // displays the number 20 to user
+            echo"<br>";
+            echo 5.7*9; 
+            echo 10 % 3; //modulus operator modulus takes 10 and divides by 3
+          
+            echo "<hr>";
+            echo 4 + 5* 10;
+            echo"<hr>";
+            $num =10;
+            echo$num;
+            $num++;
+            echo $num;
+
+            echo"<hr>";
+            echo abs(100);
+            echo"<hr>";
+            echo round(10.5);
+            echo"<hr>";
+            echo floor(3.9);
+            echo'<br>';
+            echo ceil(10.1);
+    ?>    
+
+
+
+<?php
+ echo "<br>";
+?>
+<form action="site.php" method="get">
+        Name: <input type="text" name ="name" >
+        <input type="submit">
+        <br>
+        Age:  <input type ="number" name="age">
+        <input type="submit">
+        <br>
+</form>
+
+Your name is  <?php echo $_GET["name"];?>
+Your age is <?php echo $_GET["age"];?>
+
+
+<form action="site.php" method ="get">
+<input type="number" name="num1">
+<input type ="submit">
+<br>
+<input type="number" name="num2">    
+<input type ="submit">
+    
+</form>
+    Answer:    <?php echo $_GET[num1] + $_GET[num2]?>
+
+    -->
+
+
+
+
+
+
+
+
+<form>
+    
+</form>
+
+
+
+
+
+
+
+    
+
+            <?php
+            echo "Roses are {color} <br>";
+            echo "{pluarl noun} are blue <br>";
+            echo "I love {celebrity}<br>";
+            ?>
+
+
+
+
+
+
 </body>
 </html>

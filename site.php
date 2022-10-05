@@ -7,23 +7,14 @@
     <title>Mesalands 3 Belongs To Me</title>
 </head>
 <body>
-    <form action="site.php" method="post">
-   Password: <input type= "password" name="password"><br>
-    <input type="submit">
-    </form>
-    <br><br>
 
-
-    <?php
-    //$GET vs $POST
-    //Get is les secure but good for some situatuions 
-
-    //Post is secure and does not display information in the url
-
-        echo $_POST["password"];
-       
-    ?>
-
+  <?php
+  //friends is an array storing multiple names of all my imaginary friends
+    // all names seperated by a comma, each becomes an element inside the array
+        //[0] prints out 1st position "Kevin" at index position 0
+    $friends = array("Kevin", "Karen", "Oscar", "Jim");
+  echo $friends[3]; 
+  ?>
 
 
 </body>

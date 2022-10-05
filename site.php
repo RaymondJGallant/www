@@ -17,7 +17,8 @@ Bananas:<input type="checkbox" name="fruits[]" value="bananas"> <br>
             <!--Because the user can select multiple inputs, the values are stored in an array-->
 
         <?php
-        $fruits = $_POST["fruits"]
+        $fruits = $_POST["fruits"];
+        
            
          ?>
 

@@ -16,6 +16,9 @@
 
     <?php
     //$GET vs $POST
+    //Get is les secure but good for some situatuions 
+
+    //Post is secure and does not display information in the url
 
         echo $_POST["password"];
        

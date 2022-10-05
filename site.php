@@ -13,17 +13,22 @@
 
 
 <form action="site.php" method ="get">
-        Color:<input type="text> name="color> <br>
-        Plural Noun::<input type="text" name="pluralNoun"> <br>
-    Celebrity:<input type="text> name="celebrity> <br>
+        Color:<input type="text" name="color"> <br>
+        Plural Noun:<input type="text" name="pluralNoun"> <br>
+        Celebrity:<input type="text" name="celebrity"> <br>
         <input type ="submit">
 </form>
 <br><br>
 
             <?php
-            echo "Roses are {color} <br>";
-            echo "{pluarl noun} are blue <br>";
-            echo "I love {celebrity}<br>";
+            $color = $_GET["color"];
+            $pluralNoun = $_GET["pluralNoun"];
+            $celebrity = $_GET["celebrity"];
+
+
+            echo "Roses are $color <br>";
+            echo "$pluralNoun are blue <br>";
+            echo "I love $celebrity <br>";
             ?>
 
 

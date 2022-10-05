@@ -7,15 +7,21 @@
     <title>Mesalands 3 Belongs To Me</title>
 </head>
 <body>
+    
+            <form action="site.php" method="post">
+Apples:  <input type="checkbox" name="fruits[]" value="apples"> <br>
+Oranges: <input type="checkbox" name="fruits[]" value="oranges"> <br>
+Bananas:<input type="checkbox" name="fruits[]" value="bananas"> <br>
+<input type = "submit"> 
+            </form>
+            <!--Because the user can select multiple inputs, the values are stored in an array-->
 
-  <?php
-  //friends is an array storing multiple names of all my imaginary friends
-    // all names seperated by a comma, each becomes an element inside the array
-        //[0] prints out 1st position "Kevin" at index position 0
-    $friends = array("Kevin", "Karen", "Oscar", "Jim");
-  echo $friends[3]; 
-  ?>
+        <?php
+        $fruits = $_POST["fruits"]
+           
+         ?>
 
+  
 
 </body>
 </html>

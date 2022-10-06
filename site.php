@@ -26,8 +26,12 @@
             $isMale = false; //boolean
             if ($isMale){
                 echo "You are male";
-                  
+            } else {
+                echo"you are not male";
             }
+             
+
+
             ?>
 
 

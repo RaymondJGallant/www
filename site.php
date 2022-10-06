@@ -18,7 +18,7 @@ Bananas:<input type="checkbox" name="fruits[]" value="bananas"> <br>
 
         <?php
         $fruits = $_POST["fruits"];
-        
+        echo $fruits[0];
            
          ?>
 

@@ -11,6 +11,8 @@
 <?php
 //returns cubed = the power of 3 
 //4*4*4=64
+//return breaks out of function to excecute code 
+//you can return any type of value
 function cube($num){
     return $num*$num*$num;
 

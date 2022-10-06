@@ -7,19 +7,30 @@
     <title>Mesalands 3 Belongs To Me</title>
 </head>
 <body>
+    <!--If Statements-->
+   <!--  I wake up 
+    If I'm hungry condition
+        I eat breakfast
 
-<?php
-//returns cubed = the power of 3 
-//4*4*4=64
-//return breaks out of function to excecute code 
-//you can return any type of value
-function cube($num){
-    return $num*$num*$num;
+     I look at my phone 
+     If it's about to die //condition
+         I charge it 
 
-}
-    $cubeResult = cube(4);
-    echo $cubeResult;
-?>
+     I leave my house 
+     If it's cloudy  //condition
+       I bring an umbrella 
+     Otherwise               //else
+        I bring sunglasses  -->
+
+            <?php
+            $isMale = false; //boolean
+            if ($isMale){
+                echo "You are male";
+                  
+            }
+            ?>
+
+
    
 </body>
 </html>

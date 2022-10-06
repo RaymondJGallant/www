@@ -7,40 +7,18 @@
     <title>Mesalands 3 Belongs To Me</title>
 </head>
 <body>
-    <!--If Statements-->
-   <!--  I wake up 
-    If I'm hungry condition
-        I eat breakfast
+    <?php
+    function getMax($num1, $num2){
+        if($num1 > $num2){
+            return $num1; //return ends the function
+        } else {
+            return $num2
+        }
 
-     I look at my phone 
-     If it's about to die //condition
-         I charge it 
+    }
 
-     I leave my house 
-     If it's cloudy  //condition
-       I bring an umbrella 
-     Otherwise               //else
-        I bring sunglasses  -->
-
-            <?php
-            $isMale = true; //boolean
-            $isTall =false; //boolean2
-
-            if ($isMale &&  $isTall){
-                echo "You are a tall male";
-            } else if ($isMale && !$isTall ){
-                echo "You are a short male";
-             }elseif (!$isMale && $isTall){
-                echo "You are not male but are tall";
-             } 
-             else {
-                echo"You are not male and not tall";
-            }
-             
-
-
-            ?>
-
+        echo getMax(3,90);
+    ?>
 
    
 </body>

@@ -24,16 +24,17 @@
 
             <?php
             $isMale = true; //boolean
-            $isTall =true; //boolean2
+            $isTall =false; //boolean2
 
             if ($isMale &&  $isTall){
                 echo "You are a tall male";
             } else if ($isMale && !$isTall ){
                 echo "You are a short male";
-
-            } else {
-
-                echo"You are not male";
+             }elseif (!$isMale && $isTall){
+                echo "You are not male but are tall";
+             } 
+             else {
+                echo"You are not male and not tall";
             }
              
 

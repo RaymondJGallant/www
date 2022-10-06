@@ -26,9 +26,13 @@
             $isMale = true; //boolean
             $isTall =true; //boolean2
 
-            if ($isMale || $isTall){
+            if ($isMale &&  $isTall){
                 echo "You are a tall male";
+            } else if ($isMale && !$isTall ){
+                echo "You are a short male";
+
             } else {
+
                 echo"You are not male";
             }
              

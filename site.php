@@ -10,8 +10,8 @@
     <!--say HI to the user-->
     <?php           // any code in curly brackets is part of the function
                     ///code only executes if ypu explicity call the FUNCTION
-    function sayHi(){
-        "Hello User";
+    function sayHi($name){
+        "Hello $name";
     }
     sayHi();
 

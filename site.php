@@ -12,7 +12,7 @@
         if($num1 > $num2){
             return $num1; //return ends the function
         } else {
-            return $num2
+            return $num2;
         }
 
     }

@@ -7,17 +7,18 @@
     <title>Mesalands 3 Belongs To Me</title>
 </head>
 <body>
-    <!--say HI to the user-->
-    <?php           // any code in curly brackets is part of the function
-                    ///code only executes if ypu explicity call the FUNCTION
-    function sayHi($name){
-        "Hello $name";
-    }
-    sayHi();
+
+<?php
+//returns cubed = the power of 3
+function cube($num){
+    return $num*$num*$num;
+
+}
+    $cubeResult = cube(4);
+    echo $cubeResult;
 
 
-    
-    
-    ?>
+?>
+   
 </body>
 </html>

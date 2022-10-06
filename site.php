@@ -9,7 +9,8 @@
 <body>
 
 <?php
-//returns cubed = the power of 3
+//returns cubed = the power of 3 
+//4*4*4=64
 function cube($num){
     return $num*$num*$num;
 

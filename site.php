@@ -23,11 +23,13 @@
         I bring sunglasses  -->
 
             <?php
-            $isMale = false; //boolean
-            if ($isMale){
-                echo "You are male";
+            $isMale = true; //boolean
+            $isTall =true; //boolean2
+
+            if ($isMale || $isTall){
+                echo "You are a tall male";
             } else {
-                echo"you are not male";
+                echo"You are not male";
             }
              
 

@@ -16,8 +16,6 @@ function cube($num){
 }
     $cubeResult = cube(4);
     echo $cubeResult;
-
-
 ?>
    
 </body>

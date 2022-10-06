@@ -7,22 +7,17 @@
     <title>Mesalands 3 Belongs To Me</title>
 </head>
 <body>
+    <!--say HI to the user-->
+    <?php           // any code in curly brackets is part of the function
+                    ///code only executes if ypu explicity call the FUNCTION
+    function sayHi(){
+        "Hello User";
+    }
+    sayHi();
+
+
     
-            <form action="site.php" method="post">
-Apples:  <input type="checkbox" name="fruits[]" value="apples"> <br>
-Oranges: <input type="checkbox" name="fruits[]" value="oranges"> <br>
-Bananas:<input type="checkbox" name="fruits[]" value="bananas"> <br>
-<input type = "submit"> 
-            </form>
-            <!--Because the user can select multiple inputs, the values are stored in an array-->
-
-        <?php
-        $fruits = $_POST["fruits"];
-        echo $fruits[0];
-           
-         ?>
-
-  
-
+    
+    ?>
 </body>
 </html>

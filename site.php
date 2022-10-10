@@ -7,7 +7,7 @@
     <title>Mesalands 3 Belongs To Me</title>
 </head>
 <body>
-    <!--
+
     <?php
     echo "<h1> Mesalands 3 Belongs To Me</h1>";
     echo "<hr>";
@@ -111,7 +111,7 @@ Your age is <?php echo $_GET["age"];?>
 </form>
     Answer:    <?php echo $_GET[num1] + $_GET[num2]?>
 
-    -->
+  
 
 
 
@@ -139,7 +139,10 @@ Your age is <?php echo $_GET["age"];?>
             ?>
 
 
+<php
 
+echo $str="iam cool"; 
+?>
 
 
 

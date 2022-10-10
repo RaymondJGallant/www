@@ -8,12 +8,30 @@
 </head>
 <body>
     <form>
-    <input action="site.php" method="post">
-    <input type="submit">
+         First Num:  <input type="number" name="num1"> <br>
+         OP: <input type="textbox" name="op"> <br>
+         Second Num:  <input type="number" name="num2"> <br>
+
+         <input action="site.php" method="post">
+         <input type="submit">
     </form>
 
     <?php
-    
+        $num1 = $_POST["num1"];
+        $num1 = $_POST["num2"];
+        $op = $POST["op"];
+
+        if($op == "+"){
+            echo $num1 + $num2;
+        }elseif($op == "-"){
+            echo $num1 - $num2;
+        }elseif($op == "/"){
+            echo $num1 / $num2;
+        }elseif($op =="*"){
+            echo $num1 * $num2;
+        }else {
+            echo "Invalid Operator";
+        }
     ?>
    
 </body>

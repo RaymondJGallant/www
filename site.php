@@ -7,8 +7,14 @@
     <title>Mesalands 3 Belongs To Me</title>
 </head>
 <body>
-    
+    <form>
+    <input action="site.php" method="post">
+    <input type="submit">
+    </form>
 
+    <?php
+    
+    ?>
    
 </body>
 </html>

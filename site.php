@@ -7,31 +7,18 @@
     <title>Mesalands 3 Belongs To Me</title>
 </head>
 <body>
-    
-    <form  action="site.php" method="post">
-         First Num:  <input type="number" name="num1"> <br>
-         OP: <input type="textbox" name="op"> <br>
-         Second Num:  <input type="number" name="num2"> <br>
+<form  action="site.php" method="post">
+        What was your grade?
+        <input type ="text" name = "grade">
         <input type="submit">
     </form>
 
     <?php
-        $num1 = $_POST["num1"];
-        $num2 = $_POST["num2"];
-        $op = $_POST["op"];
-
-        if($op == "+"){
-            echo $num1 + $num2;
-        }elseif($op == "-"){
-            echo $num1 - $num2;
-        }elseif($op == "/"){
-            echo $num1 / $num2;
-        }elseif($op == "*"){
-            echo $num1 * $num2;
-        }else {
-            echo "Invalid Operator";
-        }
+    $grade = $_POST["grade"];
+    echo $grade; 
+    
     ?>
    
+  
 </body>
 </html>

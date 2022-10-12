@@ -7,9 +7,9 @@
     <title>Mesalands 3 Belongs To Me</title>
 </head>
 <body>
-   <?php
-   include "header.html"
-?>
+   <?php include "header.html"?>
+   <p>Hello world this is my paragraph</p>
+   <?php include "footer.html"?>
 
 
 

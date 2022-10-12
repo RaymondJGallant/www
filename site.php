@@ -7,36 +7,16 @@
     <title>Mesalands 3 Belongs To Me</title>
 </head>
 <body>
-    <!--Switch Statements-->
+    <!--While Loops-->
 
-<form  action="site.php" method="post">
-        What was your grade?
-        <input type ="text" name = "grade">
-        <input type="submit">
-    </form>
 
     <?php
-    $grade = $_POST["grade"];
-    //echo $grade; 
-    switch ($grade){
-        case "A":
-            echo " You did Amazing"; 
-            break;
-            case "B":
-                echo "You did pretty good";
-                break;
-                case "C":
-                    echo "You did decent";
-                    break;
-                    case "D":
-                        echo "You could have tried harder";
-                        break;
-                        case"F": 
-                            echo "Are you  kidding me";
-                            break;
-                            default: 
-                            echo "Invalid Grade";
-    }
+            $index = 1;
+            while ($index <=5){       //loop condition
+                             echo "$index" <br>;
+                             $index++;                 //Loop Body
+
+            }  
     ?>
    
   

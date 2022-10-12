@@ -7,16 +7,9 @@
     <title>Mesalands 3 Belongs To Me</title>
 </head>
 <body>
-    <!--For Loops-->
-<?php
-    $luckyNumbers = array(4, 8, 14, 16, 23, 42);
-        for($i = 0; $i <= count($luckyNumbers); $i++){
-            echo "$luckyNumbers[] <br>";
-            
-        }
-
-
-
+   <?php
+   echo "comments are fun!";
+ 
 
 ?>
 

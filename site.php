@@ -7,18 +7,21 @@
     <title>Mesalands 3 Belongs To Me</title>
 </head>
 <body>
-    <!--While Loops-->
+    <!--For Loops-->
+<?php
+    $luckyNumbers = array(4, 8, 14, 16, 23, 42);
+        for($i = 0; $i <= count($luckyNumbers); $i++){
+            echo "$luckyNumbers[] <br>";
+            
+        }
 
 
-    <?php
-            $index = 1;
-            while ($index <=5){       //loop condition
-                             echo "$index" <br>;
-                             $index++;                 //Loop Body
 
-            }  
-    ?>
-   
-  
+
+?>
+
+
+
+    
 </body>
 </html>

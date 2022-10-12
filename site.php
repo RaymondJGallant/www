@@ -7,6 +7,8 @@
     <title>Mesalands 3 Belongs To Me</title>
 </head>
 <body>
+    <!--Switch Statements-->
+
 <form  action="site.php" method="post">
         What was your grade?
         <input type ="text" name = "grade">
@@ -15,8 +17,23 @@
 
     <?php
     $grade = $_POST["grade"];
-    echo $grade; 
-    
+    //echo $grade; 
+    switch ($grade){
+        case "A":
+            echo " You did Amazing"; 
+            break;
+            case "B":
+                echo "You did pretty good";
+                break;
+                case "C":
+                    echo "You did decent";
+                    break;
+                    case "D":
+                        echo "You could have tried harder";
+                        break;
+                        case"F": 
+                            echo "Are you fucking kidding me";
+    }
     ?>
    
   

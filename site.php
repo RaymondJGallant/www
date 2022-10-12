@@ -7,11 +7,8 @@
     <title>Mesalands 3 Belongs To Me</title>
 </head>
 <body>
-   <?php //comments are fun
-   echo "Comments are fun!";
- 
-// stay providing comentary
-/* I stay commenting*/
+   <?php
+   
 ?>
 
 

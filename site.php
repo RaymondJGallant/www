@@ -32,7 +32,10 @@
                         echo "You could have tried harder";
                         break;
                         case"F": 
-                            echo "Are you fucking kidding me";
+                            echo "Are you  kidding me";
+                            break;
+                            default: 
+                            echo "Invalid Grade";
     }
     ?>
    
